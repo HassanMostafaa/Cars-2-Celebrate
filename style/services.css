@@ -1,0 +1,142 @@
+
+.packages-dis{
+    text-align: center;
+    padding: 100px 0 50px 0;
+   
+}
+
+.cards{
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+   flex-wrap: wrap;
+   padding: 0px 0 100px 0;
+   
+}
+ .card{
+    box-shadow:  0 0 25px rgba(0, 0, 0, 0.108);
+    padding: 20px;
+    border-radius: 10px ;
+    margin: 20px 0;
+   width: 500px;
+  
+}
+
+.section2 .cards .card a button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: aquamarine;
+    margin:  15px 15px 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+    transition: .5s;
+    max-width: 100%;
+}
+.section2 .cards .card a button:hover{
+letter-spacing: 1px;
+transition: .3s;
+box-shadow: 5px 5px 20px aquamarine;
+}
+
+/*gallary Stuff*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: center;
+    margin: 30px 0;
+}
+
+#gallery{
+    padding: 100px 0;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.gallery a img{
+    margin:15px ;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.258);
+   
+    transition: .3s;
+    width: 350px;
+   
+}
+.gallery a img:hover{
+opacity: .8;
+transition: .3s;
+}
+.container.top-cont{
+    background-image: linear-gradient(45deg,red,yellow);
+}
+@media screen and (max-width:1360px){
+.cards{
+    justify-content: space-evenly;
+}
+.card{
+    width: 400px;
+}
+}
+
+@media screen and (max-width:800px){
+
+    .section2 .cards .card{
+        box-shadow:  0 0 15px rgba(0, 0, 0, 0.108);
+        padding: 10px;
+        border-radius: 10px ;
+        margin: 20px auto;
+        
+       
+    }
+  .section2{
+      padding: 20px;
+      padding-top: 150px;
+  }
+    
+.section2 .cards .card a button{
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: aquamarine;
+    margin:  15px 15px 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+    transition: .5s;
+    width: 100%;
+}
+}
+@media screen and (max-width:700px){
+    .section2{
+        width: 100%;
+      padding: 50px 5px;
+    }
+    .packages-dis{
+        padding: 50px 0;
+    }
+    .container{
+        width: 99%;
+    }
+    .gallery a img{
+        width: 250px;
+    }
+    .section2 .cards .card{
+        box-shadow:  0 0 15px rgba(0, 0, 0, 0.108);
+        padding:20px;
+        border-radius: 10px ;
+        margin: 20px auto;
+        
+       width: 97%;
+    }
+
+
+}

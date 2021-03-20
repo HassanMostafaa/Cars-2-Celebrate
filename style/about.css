@@ -1,0 +1,25 @@
+.about-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+    /* background-image: url("/imgs/cars/wedBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.about-text{
+    border: 1px solid red;
+   
+}
+.about-text h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width:700px){
+    .about-content{
+        width: 99%;
+        padding: 100px 10px;
+    }
+}
