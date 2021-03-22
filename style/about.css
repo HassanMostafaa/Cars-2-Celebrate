@@ -1,4 +1,4 @@
-.about-content{
+.about-content {
     width: 80%;
     margin: 0 auto;
     padding: 100px;
@@ -6,20 +6,36 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
+  
 }
-.about-text{
-   
-   
+
+.about-img {
+    text-align: right;
+    margin: 50px;
 }
-.about-text h1{
+
+.about-img img {
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.303);
+}
+
+.about-text h1 {
     margin: 20px 0;
-    font-size: 40px;
 }
 
 
-@media screen and (max-width:700px){
-    .about-content{
+@media screen and (max-width:1000px) {
+
+    .about-content {
         width: 99%;
         padding: 100px 10px;
+    }
+
+    .about-img {
+        margin: 50px auto;
+    }
+
+    .about-img img {
+        width: 100%;
     }
 }

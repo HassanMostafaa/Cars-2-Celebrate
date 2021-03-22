@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+
 * {
+    font-family: 'Nunito', sans-serif;
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*NAV BAR AREA -----------*/
@@ -18,11 +20,10 @@ nav {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.833);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
-   padding: 0px 100px;
-   z-index: 3;
-   backdrop-filter: blur(10px);
-   height: 80px;
-   
+    padding: 0px 100px;
+    z-index: 3;
+    backdrop-filter: blur(10px);
+    height: 80px;
 }
 
 nav .menu ul {
@@ -32,22 +33,24 @@ nav .menu ul {
 
 }
 
-nav .menu ul  li {
+nav .menu ul li {
     margin: 0 25px;
     color: black;
-   padding: 30px 0;
-    transition:color .5s;
-   
-}
-.active{
-    border-bottom: 3px solid rgb(1, 109, 73)
-}
-nav .menu ul  a:hover li {
+    padding: 30px 0;
 
-   
-transition:color .5s;
-border-bottom: 3px solid rgb(0, 114, 76)
+    transition: color .5s;
 
+}
+
+.active {
+    border-bottom: 3px solid rgb(1, 139, 93)
+}
+
+nav .menu ul a:hover li {
+
+
+    transition: color .5s;
+    border-bottom: 3px solid rgb(0, 114, 76)
 }
 
 /*sideMENU */
@@ -123,12 +126,13 @@ footer .footer-media i {
         color: #333;
     }
 
-  
-    footer{
+
+    footer {
         font-size: 80%;
         padding: 40px 15px;
     }
-    .footer{
+
+    .footer {
         font-size: 70%;
         display: block;
     }
