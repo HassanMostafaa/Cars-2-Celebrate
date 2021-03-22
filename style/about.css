@@ -33,9 +33,11 @@
 
     .about-img {
         margin: 50px auto;
+        text-align: center;
     }
 
     .about-img img {
         width: 100%;
     }
+    
 }

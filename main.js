@@ -4,11 +4,11 @@ var toggleSideMenu = document.querySelector(".toggleSideMenu");
 var sideMenu = document.querySelector(".side");
 
 toggleSideMenu.addEventListener("click", () => {
-  if (sideMenu.style.width === "0px") {
-    sideMenu.style.width = "100%";
-    sideMenu.style.opacity = "1";
+  if (sideMenu.style.left === "-100%") {
+    sideMenu.style.left = "0%";
+    // sideMenu.style.opacity = "1";
   } else {
-    sideMenu.style.width = "0px";
-    sideMenu.style.opacity = "0";
+    sideMenu.style.left = "-100%";
+    // sideMenu.style.opacity = "0";
   }
 });

@@ -16,6 +16,7 @@
 }
 
 nav {
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +28,7 @@ nav {
     padding: 0px 100px;
     z-index: 3;
     backdrop-filter: blur(5px);
-    height: 80px;
+    /* height: 80px; */
 
 }
 
@@ -206,11 +207,26 @@ footer .footer-media i {
 /*sideMENU */
 .side {
     display: none;
+    width: 100%;
 }
-
+.side-menu-media {
+    padding: 20px 0;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .side-menu-media a{
+    color: #333;
+  }
 .toggleSideMenu {
     color: rgb(3, 173, 119);
-    position: absolute;
+    position: fixed;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.284));
     top: 10px;
     left: 10px;
     font-size: 20px;
@@ -257,10 +273,7 @@ footer .footer-media i {
 
     .section3 {
 
-        background-image: linear-gradient(to right, rgba(20, 20, 20, 0.89), rgba(63, 63, 63, 0.795)), url("../imgs/se3.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+    
         padding: 100px 20px;
         display: block;
         justify-content: space-evenly;
@@ -293,13 +306,15 @@ footer .footer-media i {
         display: block;
         padding: 80px 0;
         height: 100vh;
-        width: 0px;
+        width: 100%;
         overflow: hidden;
         background-color: #f4f4f4;
         z-index: 5;
         text-align: center;
         position: fixed;
         transition: .5s;
+        top: 0;
+        left: -100%;
     }
 
     .side .menu ul li {
@@ -367,13 +382,15 @@ footer .footer-media i {
         display: block;
         padding: 80px 0;
         height: 100vh;
-        width: 0px;
+        width: 100%;
         overflow: hidden;
         background-color: #f4f4f4;
         z-index: 5;
         text-align: center;
         position: fixed;
         transition: .5s;
+        top: 0;
+        left: -100%;
     }
 
     .side .menu ul li {
@@ -388,7 +405,7 @@ footer .footer-media i {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 50vh;
+        height: 100vh;
     }
 
 }

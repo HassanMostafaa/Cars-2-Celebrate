@@ -23,7 +23,7 @@ nav {
     padding: 0px 100px;
     z-index: 3;
     backdrop-filter: blur(10px);
-    height: 80px;
+    /* height: 80px; */
 }
 
 nav .menu ul {
@@ -43,34 +43,47 @@ nav .menu ul li {
 }
 
 .active {
-    border-bottom: 3px solid rgb(1, 139, 93)
+    border-bottom: 3px solid rgb(0, 209, 139)
 }
 
 nav .menu ul a:hover li {
 
 
     transition: color .5s;
-    border-bottom: 3px solid rgb(0, 114, 76)
+    border-bottom: 3px solid rgb(2, 216, 145)
 }
 
 /*sideMENU */
 .side {
     display: none;
+    width: 100%;
 }
+
 
 .toggleSideMenu {
     color: rgb(3, 173, 119);
-    position: absolute;
+    position: fixed;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.284));
     top: 10px;
     left: 10px;
     font-size: 20px;
     cursor: pointer;
     display: none;
 }
-
-
-
-
+.side-menu-media {
+    padding: 20px 0;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .side-menu-media a{
+    color: #333;
+  }
 
 
 
@@ -111,13 +124,15 @@ footer .footer-media i {
         display: block;
         padding: 80px 0;
         height: 100vh;
-        width: 0px;
+        width: 100%;
         overflow: hidden;
         background-color: #f4f4f4;
         z-index: 5;
         text-align: center;
         position: fixed;
         transition: .5s;
+        top: 0;
+        left: -100%;
     }
 
     .side .menu ul li {

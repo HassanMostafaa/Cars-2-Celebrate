@@ -22,7 +22,8 @@
 .map iframe {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.105);
-
+  min-width: 700px;
+  width: 100%;
 }
 
 .info {
@@ -70,7 +71,7 @@
     font-size: 20px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
     .info {
         padding: 100px 20px;
     }
@@ -78,9 +79,12 @@
     .map iframe {
         width: 450px;
     }
+    .map iframe {
+min-width: 100%;
+    }
 }
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:920px) {
     .cont {
         display: block;
         justify-content: space-evenly;
