@@ -1,4 +1,5 @@
 console.log("JS Connected");
+console.log(window.innerWidth);
 
 var toggleSideMenu = document.querySelector(".toggleSideMenu");
 var sideMenu = document.querySelector(".side");

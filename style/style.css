@@ -239,6 +239,10 @@ footer .footer-media i {
     nav .menu ul li {
         margin: 0 0 0 20px;
     }
+    .popUp{
+        display: none;
+        opacity: 0;
+    }
 }
 
 @media screen and (max-width:800px) {
