@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
-* {
-    font-family: 'Gugi', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+*{
+font-family: 'Nova Mono', monospace;
+
+
     margin: 0;
     list-style: none;
     text-decoration: none;
