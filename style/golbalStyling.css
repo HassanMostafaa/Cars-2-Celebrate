@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
-*{
-font-family: 'Nova Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
-
+* {
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     list-style: none;
     text-decoration: none;
@@ -36,7 +35,7 @@ nav .menu ul {
 nav .menu ul li {
     margin: 0;
     color: black;
-    padding: 30px ;
+    padding: 30px;
 
     transition: color .5s;
 
@@ -64,8 +63,8 @@ nav .menu ul a:hover li {
     color: rgb(3, 173, 119);
     position: fixed;
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.284));
-    top:0px;
-    left:0px;
+    top: 0px;
+    left: 0px;
     font-size: 20px;
     padding: 20px 20px 10px 20px;
     cursor: pointer;
@@ -82,11 +81,12 @@ nav .menu ul a:hover li {
     align-items: center;
     width: 90%;
     margin: 0 auto;
-    
-  }
-  .side-menu-media a{
+
+}
+
+.side-menu-media a {
     color: #333;
-  }
+}
 
 
 
@@ -133,19 +133,20 @@ footer .footer-media i {
         overflow: hidden;
         background-color: #f4f4f4;
         z-index: 5;
- text-align: center; 
+        text-align: center;
 
         position: fixed;
         transition: .5s;
         top: 0;
         left: -100%;
     }
-    
-    .side .menu ul{
+
+    .side .menu ul {
         padding: 0;
         margin: 0;
-       
+
     }
+
     .side .menu ul li {
         text-decoration: none;
         margin: 30px 0;
